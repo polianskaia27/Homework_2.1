@@ -11,7 +11,9 @@ scoreJs = 121;
 averageScore = (scoreIntro + scoreGit + scoreJs) / 3;
 
 studentName = "Антон Антонов";
+let initial = studentName.slice(0, 1);
+let surname = studentName.slice(6);
 
 console.log(
-  `Средний балл за модули "Введение", "Git" и "JS" студента по имени ${studentName} составил ${averageScore}.`
+  `Средний балл за модули "Введение", "Git" и "JS" студента по имени ${initial}. ${surname} составил ${averageScore}.`
 );
